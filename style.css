@@ -1,0 +1,40 @@
+h1{color:rgba(0, 45, 247, 0.726);
+    margin-left: 500px
+    ;border: solid;
+}
+
+body{background-color: #7BC80B}
+.modoc{background-color: #177404;
+display: flex;
+justify-content: space-between;
+}
+.jarvis{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
+a:link{color: lightseagreen;}
+a:visited{color: crimson;}
+
+.bloodshot{
+    position: relative;
+}
+
+.bloodshot p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: crimson;
+    opacity: 0;
+}
+
+.bloodshot:hover p{
+    opacity:1
+}
+
+.JOHN{
+    margin-right: 5%;
+    margin-top: 2.5%;
+}
